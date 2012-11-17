@@ -231,6 +231,8 @@ set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
 
 """" Display
+set t_Co=256
+
 if has("gui_running")
     colorscheme desert
     " Remove menu bar
@@ -239,7 +241,7 @@ if has("gui_running")
     " Remove toolbar
     set guioptions-=T
 else
-    colorscheme torte
+    colorscheme lucius
 endif
 
 " Paste from clipboard
