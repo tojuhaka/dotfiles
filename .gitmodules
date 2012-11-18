@@ -65,5 +65,5 @@
 	path = _vim/bundle/coffee
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/supertab"]
-	path = bundle/supertab
+	path = _vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
