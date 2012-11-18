@@ -75,6 +75,7 @@ cmap W! w !sudo tee % >/dev/null
 
 " Toggle the tasklist
 map <leader>td <Plug>TaskList
+nnoremap <leader>T g]
 
 " Run pep8
 let g:pep8_map='<leader>8'
@@ -117,6 +118,9 @@ map <leader>n :NERDTreeToggle<CR>
 map <leader>f :CommandT<CR>
 " Ack searching
 nmap <leader>a <Esc>:Ack!
+
+" map ,t for taglist
+map <leader>t :TlistToggle<CR>
 
 " Load the Gundo window
 map <leader>g :GundoToggle<CR>
