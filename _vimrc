@@ -311,3 +311,5 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
 endif
 
 set colorcolumn=79
+
+set tags=./tags,/Users/tojuhaka/.plone_tags
