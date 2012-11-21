@@ -130,6 +130,10 @@ map <leader>j :RopeGotoDefinition<CR>
 
 " Rename whatever the cursor is on (including references to it)
 map <leader>r :RopeRename<CR>
+
+" For tags
+nnoremap <F8> :!/usr/local/bin/ctags -R --python-kinds=-i *.py<CR>
+let Tlist_Use_Right_Window = 1
 " ==========================================================
 " Pathogen - Allows us to organize our vim plugins
 " ==========================================================
