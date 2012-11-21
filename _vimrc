@@ -133,6 +133,7 @@ map <leader>r :RopeRename<CR>
 
 " For tags
 nnoremap <F8> :!/usr/local/bin/ctags -R --python-kinds=-i *.py<CR>
+
 let Tlist_Use_Right_Window = 1
 " ==========================================================
 " Pathogen - Allows us to organize our vim plugins
@@ -315,5 +316,4 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
 endif
 
 set colorcolumn=79
-
-set tags=./tags,/Users/tojuhaka/.plone_tags
+set tags=./tags,tags,~/.plone_tags
