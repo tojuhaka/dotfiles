@@ -1,10 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/tojuhaka/.ssh'
-let g:netrw_dirhist_2='/home/tojuhaka/dotfiles/bundle'
-let g:netrw_dirhist_3='/Users/tojuhaka/dotfiles/_vim/bundle'
-let g:netrw_dirhist_4='/Users/tojuhaka/Work/plone/humantechnology/src/jyu.journal.core/src/jyu/journal/core'
-let g:netrw_dirhist_5='/Users/tojuhaka/Work/plone/humantechnology/src/jyu.journal.core'
-let g:netrw_dirhist_6='/Users/tojuhaka/Work/plone/humantechnology/src/jyu.formletter/src/jyu/formletter'
-let g:netrw_dirhist_7='/Users/tojuhaka/Work/plone/humantechnology/src/jyu.journal.core'
-let g:netrw_dirhist_8='/Users/tojuhaka/dotfiles/_vim/bundle/command-t'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/tojuhaka/Work/plone/humantechnology/src/jyu.journal.core/src/jyu/journal'
+let g:netrw_dirhist_2='/Users/tojuhaka/Work/plone/humantechnology'
+let g:netrw_dirhist_3='/Users/tojuhaka/Work/plone/humantechnology/src/jyu.journal.core/src/jyu/journal/core/profiles/default/workflow_csv'

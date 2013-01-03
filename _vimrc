@@ -50,6 +50,10 @@
 " ==========================================================
 " Shortcuts
 " ==========================================================
+set noswapfile
+set nobackup
+set nowritebackup
+
 set nocompatible              " Don't be compatible with vi
 let mapleader=","             " change the leader to be a comma vs slash
 
@@ -120,7 +124,7 @@ map <leader>f :CommandT<CR>
 nmap <leader>a <Esc>:Ack!
 
 " map ,t for taglist
-map <leader>t :TlistToggle<CR>
+" map <leader>t :TlistToggle<CR>
 
 " Load the Gundo window
 map <leader>g :GundoToggle<CR>
@@ -316,4 +320,4 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
 endif
 
 set colorcolumn=79
-set tags=./tags,tags,~/.plone_tags
+set tags=./tags,tags,~/.plone_tags;/
