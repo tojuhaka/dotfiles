@@ -84,6 +84,9 @@ nnoremap <leader>T g]
 " Run pep8
 let g:pep8_map='<leader>8'
 
+" Pymode
+let g:pymode_breakpoint=0
+
 " run py.test's
 nmap <silent><Leader>tf <Esc>:Pytest file<CR>
 nmap <silent><Leader>tc <Esc>:Pytest class<CR>
@@ -169,7 +172,7 @@ set wildignore+=*.o,*.obj,.git,*.pyc
 set wildignore+=eggs/**
 set wildignore+=*.egg-info/**
 
-set grepprg=ack         " replace the default grep program with ack
+set grepprg=ack         " replace the default grep program with Ack
 
 
 " Set working directory
