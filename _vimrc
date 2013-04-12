@@ -324,3 +324,4 @@ endif
 
 set colorcolumn=79
 set tags=./tags,tags,~/.plone_tags;/
+let g:pymode_rope_guess_project = 0
