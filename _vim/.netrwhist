@@ -1,3 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/tojuhaka/Work/plone/collective.roster/src/collective/roster/behaviors/viewlets_templates'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/tojuhaka/Work/plone/hallintokeskus/src/zopyx.tinymceplugins.imgmap/zopyx/tinymceplugins/imgmap'
+let g:netrw_dirhist_2='/Users/tojuhaka/Work/plone/humantechnology/src/collective.roster/src/collective/roster/person_templates'
